@@ -133,6 +133,9 @@
         <mxCell id="dT6Byr3Yk15pxcJO_Kve-27" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Initialize Connection" vertex="1">
           <mxGeometry height="49" width="168" x="697" y="352" as="geometry" />
         </mxCell>
+        <mxCell id="xOfFvOnvhriLLw3QtXMU-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="160" width="140" x="1239" y="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

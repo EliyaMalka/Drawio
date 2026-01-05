@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="8">
-  <diagram name="Page-1" id="7t7sJ9vqG2NHdV7zTumW">
-    <mxGraphModel dx="1959" dy="2538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+  <diagram name="User_Hardware_Choose_Usecase" id="7t7sJ9vqG2NHdV7zTumW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,8 +139,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Page-2" id="QUps3W9k5I1aIDrMHStf">
-    <mxGraphModel dx="1426" dy="2353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+  <diagram name="User_Login_Usecase" id="QUps3W9k5I1aIDrMHStf">
+    <mxGraphModel dx="1665" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -246,8 +246,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Page-3" id="vAiAkGYXB5JTZSp5a8_Z">
-    <mxGraphModel dx="1426" dy="2353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+  <diagram name="User_Hardware_closure_Usecase" id="vAiAkGYXB5JTZSp5a8_Z">
+    <mxGraphModel dx="1665" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -350,8 +350,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Page-4" id="cxvjniwfD-wkhmzCaC6j">
-    <mxGraphModel dx="1743" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+  <diagram name="User_Switch_Press_Usecase" id="cxvjniwfD-wkhmzCaC6j">
+    <mxGraphModel dx="1665" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -506,8 +506,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Page-5" id="HgdwITLzctDlxd6KuW7-">
-    <mxGraphModel dx="1991" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+  <diagram name="User_Valuw_Change_Usecase" id="HgdwITLzctDlxd6KuW7-">
+    <mxGraphModel dx="1665" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -659,8 +659,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Page-6" id="6b2zc60q0ldi9LUZU-MS">
-    <mxGraphModel dx="1991" dy="2653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+  <diagram name="User_Bitfield_Change_Usecase" id="6b2zc60q0ldi9LUZU-MS">
+    <mxGraphModel dx="1665" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -812,8 +812,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Page-7" id="C8HmbTjwrfSS-2aPEM3a">
-    <mxGraphModel dx="1678" dy="2476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+  <diagram name="RC_Write_Usecase" id="C8HmbTjwrfSS-2aPEM3a">
+    <mxGraphModel dx="1665" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -959,8 +959,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Page-8" id="iPDzha4YrvvbuOm8xvNK">
-    <mxGraphModel dx="1394" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+  <diagram name="RC_Read_Usecase" id="iPDzha4YrvvbuOm8xvNK">
+    <mxGraphModel dx="1665" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

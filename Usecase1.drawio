@@ -810,7 +810,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="RC_Write_Usecase" id="C8HmbTjwrfSS-2aPEM3a">
-    <mxGraphModel dx="1753" dy="2445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2562" dy="2809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -882,7 +882,7 @@
             <mxPoint x="-156.5" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNm47V3hMFB5962Zcqln-19" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="5. invoke()">
+        <mxCell id="yNm47V3hMFB5962Zcqln-19" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="5. GUI invoke">
           <mxGeometry relative="1" x="0.2354" y="-8" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">

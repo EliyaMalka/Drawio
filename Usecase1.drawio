@@ -606,7 +606,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="User_Register_Change_Usecase" id="HgdwITLzctDlxd6KuW7-">
-    <mxGraphModel dx="2396" dy="1878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="-186" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -714,161 +714,123 @@
         <mxCell id="aLStezGvKeVpMaK9pP5H-21" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Request update (View waits)" vertex="1">
           <mxGeometry height="49" width="219" x="1688" y="1066" as="geometry" />
         </mxCell>
-        <mxCell id="aLStezGvKeVpMaK9pP5H-22" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Update internal Coil table &#xa;and memory storage.  &#xa;RC will read this later via Polling." vertex="1">
+        <mxCell id="aLStezGvKeVpMaK9pP5H-22" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Update internal register table &#xa;and memory storage.  &#xa;RC will read this later via Polling." vertex="1">
           <mxGeometry height="68" width="248" x="2286" y="1219" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="User_Bitfield_Change_Usecase" id="6b2zc60q0ldi9LUZU-MS">
-    <mxGraphModel dx="1665" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1208" dy="1252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" value="Operator (User)" vertex="1">
-          <mxGeometry height="805" width="35" x="20" y="20" as="geometry" />
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" value="Operator (User)" vertex="1">
+          <mxGeometry height="873" width="35" x="1510" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Simulator GUI" vertex="1">
-          <mxGeometry height="805" width="150" x="298" y="20" as="geometry" />
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Simulator GUI" vertex="1">
+          <mxGeometry height="873" width="150" x="1818" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-3" parent="YCRUnDlwIEKNhsl-iPdT-2" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
-          <mxGeometry height="554" width="10" x="70" y="156" as="geometry" />
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-3" parent="xpLPLu8h0SB7UJm8rYVH-2" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="444" width="10" x="70" y="156" as="geometry" />
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Operator (Controller)" vertex="1">
-          <mxGeometry height="805" width="168" x="619" y="20" as="geometry" />
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Operator (Controller)" vertex="1">
+          <mxGeometry height="873" width="168" x="2093" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-5" parent="YCRUnDlwIEKNhsl-iPdT-4" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
-          <mxGeometry height="391" width="10" x="79" y="257" as="geometry" />
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-5" parent="xpLPLu8h0SB7UJm8rYVH-4" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="63" width="10" x="79" y="257" as="geometry" />
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="ModbusConnection" vertex="1">
-          <mxGeometry height="805" width="159" x="966" y="20" as="geometry" />
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="ModbusConnection" vertex="1">
+          <mxGeometry height="873" width="159" x="2412" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-7" parent="YCRUnDlwIEKNhsl-iPdT-6" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
-          <mxGeometry height="173" width="10" x="74" y="309" as="geometry" />
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-7" parent="xpLPLu8h0SB7UJm8rYVH-6" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="211" width="10" x="74" y="309" as="geometry" />
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="OperatorAccess (DB)" vertex="1">
-          <mxGeometry height="805" width="166" x="1246" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-9" parent="YCRUnDlwIEKNhsl-iPdT-8" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
-          <mxGeometry height="42" width="10" x="78" y="544" as="geometry" />
-        </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-10" edge="1" parent="1" source="YCRUnDlwIEKNhsl-iPdT-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="YCRUnDlwIEKNhsl-iPdT-3" value="1. Click Checkbox (Bit 3)">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-8" edge="1" parent="1" source="xpLPLu8h0SB7UJm8rYVH-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xpLPLu8h0SB7UJm8rYVH-3" value="1. Click Checkbox (Bit 3)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="243" y="176" />
+              <mxPoint x="1748" y="506" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-11" parent="YCRUnDlwIEKNhsl-iPdT-10" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="1" vertex="1">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-9" parent="xpLPLu8h0SB7UJm8rYVH-8" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="1" vertex="1">
           <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-146.5" y="-7" as="offset" />
+            <mxPoint x="-161.5" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-12" edge="1" parent="1" source="YCRUnDlwIEKNhsl-iPdT-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="YCRUnDlwIEKNhsl-iPdT-5" value="2. Request Update (Calculated Word)">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-10" edge="1" parent="1" source="xpLPLu8h0SB7UJm8rYVH-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xpLPLu8h0SB7UJm8rYVH-5" value="2. UpdateIndicator(address, val)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="549" y="277" />
+              <mxPoint x="2046" y="607" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-13" parent="YCRUnDlwIEKNhsl-iPdT-12" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="2" vertex="1">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-11" parent="xpLPLu8h0SB7UJm8rYVH-10" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="2" vertex="1">
           <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-170.5" y="-7" as="offset" />
+            <mxPoint x="-147.5" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-14" edge="1" parent="1" source="YCRUnDlwIEKNhsl-iPdT-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="YCRUnDlwIEKNhsl-iPdT-7" value="3. UpdateNumericIndicator(config, val)">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-12" edge="1" parent="1" source="xpLPLu8h0SB7UJm8rYVH-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xpLPLu8h0SB7UJm8rYVH-7" value="3. WriteFromGUI(address, val)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="885" y="329" />
+              <mxPoint x="2345" y="659" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-15" parent="YCRUnDlwIEKNhsl-iPdT-14" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="3" vertex="1">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-13" parent="xpLPLu8h0SB7UJm8rYVH-12" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="3" vertex="1">
           <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-176.5" y="-7" as="offset" />
+            <mxPoint x="-162.5" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-16" edge="1" parent="1" source="YCRUnDlwIEKNhsl-iPdT-7" style="curved=1;endArrow=block;rounded=0;" target="YCRUnDlwIEKNhsl-iPdT-7" value="4. Write to Internal Store">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-14" edge="1" parent="1" source="xpLPLu8h0SB7UJm8rYVH-7" style="curved=1;endArrow=block;rounded=0;" target="xpLPLu8h0SB7UJm8rYVH-7" value="UpdateRegisterProtocol(address, val)&#xa; UpdateRegisterDataStore(address, val)">
+          <mxGeometry relative="1" x="-0.0615" y="74" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1100" y="430" />
-              <mxPoint x="1100" y="460" />
+              <mxPoint x="2546" y="779" />
+              <mxPoint x="2546" y="809" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-17" parent="YCRUnDlwIEKNhsl-iPdT-16" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="4" vertex="1">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-15" parent="xpLPLu8h0SB7UJm8rYVH-14" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="4" vertex="1">
           <mxGeometry height="14" relative="1" width="14" as="geometry">
             <mxPoint x="-57" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-18" edge="1" parent="1" source="YCRUnDlwIEKNhsl-iPdT-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="YCRUnDlwIEKNhsl-iPdT-5" value="5. Success">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-16" edge="1" parent="1" source="xpLPLu8h0SB7UJm8rYVH-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="xpLPLu8h0SB7UJm8rYVH-3" value="5.  Success">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="886" y="512" />
+              <mxPoint x="2346" y="861" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-19" parent="YCRUnDlwIEKNhsl-iPdT-18" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="5" vertex="1">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-17" parent="xpLPLu8h0SB7UJm8rYVH-16" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="5" vertex="1">
           <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="160.5" y="-7" as="offset" />
+            <mxPoint x="289" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-20" edge="1" parent="1" source="YCRUnDlwIEKNhsl-iPdT-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="YCRUnDlwIEKNhsl-iPdT-9" value="6. updateIndicator(indicator)">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-18" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" value="6. Switch animation changes state">
+          <mxGeometry relative="1" x="0.0416" y="-10" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1027" y="564" />
+              <mxPoint x="1640" y="950" />
             </Array>
+            <mxPoint x="1888" y="950" as="sourcePoint" />
+            <mxPoint x="1527" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-21" parent="YCRUnDlwIEKNhsl-iPdT-20" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="6" vertex="1">
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-19" parent="xpLPLu8h0SB7UJm8rYVH-18" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="6" vertex="1">
           <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-318.5" y="-7" as="offset" />
+            <mxPoint x="179" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-22" edge="1" parent="1" source="YCRUnDlwIEKNhsl-iPdT-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="YCRUnDlwIEKNhsl-iPdT-5" value="7. Saved">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1028" y="616" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-20" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="User checks a Bit " vertex="1">
+          <mxGeometry height="49" width="358" x="1560" y="425" as="geometry" />
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-23" parent="YCRUnDlwIEKNhsl-iPdT-22" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="7" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="302.5" y="-7" as="offset" />
-          </mxGeometry>
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-21" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Calculate new Word value&#xa;and Request update (View waits)" vertex="1">
+          <mxGeometry height="49" width="219" x="1918" y="526" as="geometry" />
         </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-24" edge="1" parent="1" source="YCRUnDlwIEKNhsl-iPdT-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="YCRUnDlwIEKNhsl-iPdT-3" value="8. Invoke / Event: Update UI">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="550" y="668" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-25" parent="YCRUnDlwIEKNhsl-iPdT-24" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="8" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="154.5" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-26" edge="1" parent="1" source="YCRUnDlwIEKNhsl-iPdT-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="YCRUnDlwIEKNhsl-iPdT-1" value="9. Checkbox appears checked">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="244" y="720" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-27" parent="YCRUnDlwIEKNhsl-iPdT-26" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="9" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="130.5" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-28" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="User checks a Bit (Updates Internal Memory Only)" vertex="1">
-          <mxGeometry height="49" width="328" x="70" y="95" as="geometry" />
-        </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-29" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Calculate new Word value" vertex="1">
-          <mxGeometry height="49" width="202" x="398" y="196" as="geometry" />
-        </mxCell>
-        <mxCell id="YCRUnDlwIEKNhsl-iPdT-30" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Update internal Register table." vertex="1">
-          <mxGeometry height="49" width="234" x="1070" y="349" as="geometry" />
+        <mxCell id="xpLPLu8h0SB7UJm8rYVH-22" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Update internal register table &#xa;and memory storage.  &#xa;RC will read this later via Polling." vertex="1">
+          <mxGeometry height="68" width="248" x="2516" y="679" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

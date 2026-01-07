@@ -491,7 +491,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="User_Switch_Press_Usecase" id="cxvjniwfD-wkhmzCaC6j">
-    <mxGraphModel dx="1665" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -528,7 +528,7 @@
             <mxPoint x="-161.5" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyairgQgEUcfaerhjNYd-12" edge="1" parent="1" source="wyairgQgEUcfaerhjNYd-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="wyairgQgEUcfaerhjNYd-5" value="2. Request Update (True/False)">
+        <mxCell id="wyairgQgEUcfaerhjNYd-12" edge="1" parent="1" source="wyairgQgEUcfaerhjNYd-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="wyairgQgEUcfaerhjNYd-5" value="2. UpdateIndicator(address, val)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="556" y="407" />
@@ -540,7 +540,7 @@
             <mxPoint x="-147.5" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyairgQgEUcfaerhjNYd-14" edge="1" parent="1" source="wyairgQgEUcfaerhjNYd-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="wyairgQgEUcfaerhjNYd-7" value="3. UpdateIndicator(address, val)">
+        <mxCell id="wyairgQgEUcfaerhjNYd-14" edge="1" parent="1" source="wyairgQgEUcfaerhjNYd-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="wyairgQgEUcfaerhjNYd-7" value="3. WriteFromGUI(address, val)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="855" y="459" />
@@ -552,8 +552,8 @@
             <mxPoint x="-162.5" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyairgQgEUcfaerhjNYd-16" edge="1" parent="1" source="wyairgQgEUcfaerhjNYd-7" style="curved=1;endArrow=block;rounded=0;" target="wyairgQgEUcfaerhjNYd-7" value="4. WriteFromGUI(address, val)">
-          <mxGeometry relative="1" x="-0.0615" y="44" as="geometry">
+        <mxCell id="wyairgQgEUcfaerhjNYd-16" edge="1" parent="1" source="wyairgQgEUcfaerhjNYd-7" style="curved=1;endArrow=block;rounded=0;" target="wyairgQgEUcfaerhjNYd-7" value="UpdateCoilProtocol(address, val)&#xa; UpdateCoilDataStore(address, val)">
+          <mxGeometry relative="1" x="-0.0615" y="74" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="1056" y="579" />
@@ -602,14 +602,11 @@
         <mxCell id="wyairgQgEUcfaerhjNYd-30" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Update internal Coil table &#xa;and memory storage.  &#xa;RC will read this later via Polling." vertex="1">
           <mxGeometry height="68" width="248" x="1026" y="479" as="geometry" />
         </mxCell>
-        <mxCell id="IzzfLzzIsCBF2CJ0eDfK-3" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;UpdateCoilProtocol(address, val)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; text-align: center; text-wrap-mode: nowrap; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UpdateCoilDataStore(address, val)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="180" x="1050" y="590" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="User_Valuw_Change_Usecase" id="HgdwITLzctDlxd6KuW7-">
-    <mxGraphModel dx="1665" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+  <diagram name="User_Register_Change_Usecase" id="HgdwITLzctDlxd6KuW7-">
+    <mxGraphModel dx="983" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -664,7 +661,7 @@
             <mxPoint x="-140" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="masB6t0qTX9VeWGurlq8-14" edge="1" parent="1" source="masB6t0qTX9VeWGurlq8-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="masB6t0qTX9VeWGurlq8-7" value="3. UpdateNumericIndicator(config, val)">
+        <mxCell id="masB6t0qTX9VeWGurlq8-14" edge="1" parent="1" source="masB6t0qTX9VeWGurlq8-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="masB6t0qTX9VeWGurlq8-7" value="3. ">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="827" y="1179" />
@@ -749,7 +746,7 @@
             <mxPoint x="132" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="masB6t0qTX9VeWGurlq8-28" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="User inputs number (Updates Internal Memory Only)" vertex="1">
+        <mxCell id="masB6t0qTX9VeWGurlq8-28" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="User inputs number" vertex="1">
           <mxGeometry height="49" width="331" x="70" y="945" as="geometry" />
         </mxCell>
         <mxCell id="masB6t0qTX9VeWGurlq8-29" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Request update (View waits)" vertex="1">

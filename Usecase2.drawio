@@ -19,7 +19,7 @@
         <mxCell id="F6thkG4Te5XN1Y5u2Kzk-5" parent="F6thkG4Te5XN1Y5u2Kzk-4" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
           <mxGeometry height="201" width="10" x="79" y="375" as="geometry" />
         </mxCell>
-        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-6" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="F6thkG4Te5XN1Y5u2Kzk-3" value="4. open operator mode">
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-6" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="F6thkG4Te5XN1Y5u2Kzk-3" value="4. open manager mode">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="284" y="591" />

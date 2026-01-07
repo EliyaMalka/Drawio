@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="8">
   <diagram name="User_Hardware_Choose_Usecase" id="7t7sJ9vqG2NHdV7zTumW">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1665" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,9 +132,6 @@
         </mxCell>
         <mxCell id="dT6Byr3Yk15pxcJO_Kve-27" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Initialize Connection" vertex="1">
           <mxGeometry height="49" width="168" x="697" y="352" as="geometry" />
-        </mxCell>
-        <mxCell id="xOfFvOnvhriLLw3QtXMU-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="160" width="140" x="1239" y="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

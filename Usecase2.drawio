@@ -1,4 +1,175 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="12">
+  <diagram name="Manager_Login_Usecase" id="tLq5SSL0kPcj9XkBal2I">
+    <mxGraphModel dx="1959" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" value="manager&#xa;(User)" vertex="1">
+          <mxGeometry height="620" width="35" x="40" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Simulator GUI" vertex="1">
+          <mxGeometry height="660" width="150" x="596" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-3" parent="F6thkG4Te5XN1Y5u2Kzk-2" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="341" width="10" x="70" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Operator" vertex="1">
+          <mxGeometry height="580" width="168" x="836" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-5" parent="F6thkG4Te5XN1Y5u2Kzk-4" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="201" width="10" x="79" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-6" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="F6thkG4Te5XN1Y5u2Kzk-3" value="4. open operator mode">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="284" y="591" />
+            </Array>
+            <mxPoint x="57" y="591" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-7" parent="F6thkG4Te5XN1Y5u2Kzk-6" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="4" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-311" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-8" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="F6thkG4Te5XN1Y5u2Kzk-20" value="1. LoadData()">
+          <mxGeometry relative="1" x="-0.7235" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="320" y="390" />
+            </Array>
+            <mxPoint x="57" y="390" as="sourcePoint" />
+            <mxPoint x="1054.5" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-9" parent="F6thkG4Te5XN1Y5u2Kzk-8" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="1" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-560" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-10" edge="1" parent="1" source="F6thkG4Te5XN1Y5u2Kzk-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;endArrow=block;" value="6. readSimulator()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="995" y="709" />
+            </Array>
+            <mxPoint x="804" y="709" as="sourcePoint" />
+            <mxPoint x="1169.5" y="709" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-11" parent="F6thkG4Te5XN1Y5u2Kzk-10" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="6" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-132" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-12" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="F6thkG4Te5XN1Y5u2Kzk-5" value="7. Return Data (Simulator &amp; Hardware List)">
+          <mxGeometry relative="1" x="0.0693" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="948.8399999999999" y="786" />
+              <mxPoint x="872.3399999999999" y="696" />
+            </Array>
+            <mxPoint x="1163.5000000000005" y="786" as="sourcePoint" />
+            <mxPoint x="924.29" y="786" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-13" parent="F6thkG4Te5XN1Y5u2Kzk-12" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="7" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="109" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-14" edge="1" parent="1" source="F6thkG4Te5XN1Y5u2Kzk-25" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" value="3. Data Loaded">
+          <mxGeometry relative="1" x="-0.8417" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="232.5" y="486" />
+            </Array>
+            <mxPoint x="434.5" y="486" as="sourcePoint" />
+            <mxPoint x="56.94736842105249" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-15" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="9. GUI ready to use">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="418" y="924.95" />
+            </Array>
+            <mxPoint x="670.5" y="924.95" as="sourcePoint" />
+            <mxPoint x="56.94736842105249" y="924.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-16" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="System Startup (No Login required)" vertex="1">
+          <mxGeometry height="49" width="371" x="88.5" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-17" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="User open application&#xa;Auto-load simulator data from config file" vertex="1">
+          <mxGeometry height="50" width="248" x="150" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-18" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;endArrow=block;" value="5. intilization()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="866" y="772" />
+            </Array>
+            <mxPoint x="670.5" y="647" as="sourcePoint" />
+            <mxPoint x="918.5" y="647" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-19" parent="F6thkG4Te5XN1Y5u2Kzk-18" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="5" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-132" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="DataAccess" vertex="1">
+          <mxGeometry height="520" width="150" x="1089" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-21" parent="F6thkG4Te5XN1Y5u2Kzk-20" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="70" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-22" edge="1" parent="1" source="F6thkG4Te5XN1Y5u2Kzk-20" style="curved=1;endArrow=block;rounded=0;" target="F6thkG4Te5XN1Y5u2Kzk-20" value="2. simulator memory loaded">
+          <mxGeometry relative="1" x="-0.0615" y="44" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1210" y="426" />
+              <mxPoint x="1210" y="456" />
+            </Array>
+            <mxPoint x="1160" y="426" as="sourcePoint" />
+            <mxPoint x="1160" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-23" parent="F6thkG4Te5XN1Y5u2Kzk-22" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="2" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-24" edge="1" parent="1" source="F6thkG4Te5XN1Y5u2Kzk-20" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="F6thkG4Te5XN1Y5u2Kzk-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1164" y="486" as="sourcePoint" />
+            <mxPoint x="56.94736842105249" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-25" parent="1" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="3" vertex="1">
+          <mxGeometry height="14" width="14" x="1157" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-26" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" value="8. GUI built">
+          <mxGeometry relative="1" x="0.0693" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="703.8400000000001" y="1068" />
+              <mxPoint x="627.3400000000001" y="978" />
+            </Array>
+            <mxPoint x="919.5" y="842.9999999999998" as="sourcePoint" />
+            <mxPoint x="670.4473684210525" y="842.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-27" parent="F6thkG4Te5XN1Y5u2Kzk-26" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="8" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="109" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F6thkG4Te5XN1Y5u2Kzk-28" parent="1" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="9" vertex="1">
+          <mxGeometry height="14" width="14" x="664" y="912" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="Manager_Simulator_Config_Usecase" id="61VBlAXKarSvnzMpv1MD">
     <mxGraphModel dx="1665" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -364,113 +535,6 @@
         </mxCell>
         <mxCell id="Wu_1nb5JZXd8kZVcxBsP-24" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Persist changes to storage" vertex="1">
           <mxGeometry height="49" width="204" x="948" y="379" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="Manager_Login_Usecase" id="tLq5SSL0kPcj9XkBal2I">
-    <mxGraphModel dx="1665" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="qfs8zwdexnjFUULihdkl-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" value="Creator (User)" vertex="1">
-          <mxGeometry height="570" width="35" x="20" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Simulator GUI" vertex="1">
-          <mxGeometry height="570" width="150" x="348" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-3" parent="qfs8zwdexnjFUULihdkl-2" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
-          <mxGeometry height="319" width="10" x="70" y="156" as="geometry" />
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Creator (Controller)" vertex="1">
-          <mxGeometry height="570" width="157" x="548" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-5" parent="qfs8zwdexnjFUULihdkl-4" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
-          <mxGeometry height="205" width="10" x="74" y="208" as="geometry" />
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="CreatorAccess (DB)" vertex="1">
-          <mxGeometry height="570" width="154" x="880" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-7" parent="qfs8zwdexnjFUULihdkl-6" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
-          <mxGeometry height="42" width="10" x="72" y="309" as="geometry" />
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-8" edge="1" parent="1" source="qfs8zwdexnjFUULihdkl-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="qfs8zwdexnjFUULihdkl-3" value="1. Open Application / Click &quot;Load&quot;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="268" y="176" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-9" parent="qfs8zwdexnjFUULihdkl-8" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="1" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-171.5" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-10" edge="1" parent="1" source="qfs8zwdexnjFUULihdkl-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="qfs8zwdexnjFUULihdkl-5" value="2. initialization()">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="535" y="228" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-11" parent="qfs8zwdexnjFUULihdkl-10" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="2" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-107.25" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-12" edge="1" parent="1" source="qfs8zwdexnjFUULihdkl-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="qfs8zwdexnjFUULihdkl-7" value="3. readSimulator()">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="802" y="329" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-13" parent="qfs8zwdexnjFUULihdkl-12" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="3" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-170.5" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-14" edge="1" parent="1" source="qfs8zwdexnjFUULihdkl-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="qfs8zwdexnjFUULihdkl-5" value="4. return Simulator Object (Full Data)">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="803" y="381" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-15" parent="qfs8zwdexnjFUULihdkl-14" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="4" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="154.5" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-16" edge="1" parent="1" source="qfs8zwdexnjFUULihdkl-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="qfs8zwdexnjFUULihdkl-3" value="5. Load Data to UI">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="536" y="433" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-17" parent="qfs8zwdexnjFUULihdkl-16" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="5" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="91.25" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-18" edge="1" parent="1" source="qfs8zwdexnjFUULihdkl-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="qfs8zwdexnjFUULihdkl-1" value="6. Display Simulator &amp; Hardware List">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="269" y="485" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-19" parent="qfs8zwdexnjFUULihdkl-18" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="6" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="155.5" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-20" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="System Startup / Load Existing Configuration" vertex="1">
-          <mxGeometry height="49" width="378" x="70" y="95" as="geometry" />
-        </mxCell>
-        <mxCell id="qfs8zwdexnjFUULihdkl-21" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Fetch simulator data from storage" vertex="1">
-          <mxGeometry height="49" width="259" x="652" y="248" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

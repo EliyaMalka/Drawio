@@ -839,7 +839,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="RC_Write_Usecase" id="C8HmbTjwrfSS-2aPEM3a">
-    <mxGraphModel dx="1678" dy="2538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2216" dy="2578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1029,7 +1029,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4_CG2Gpb1AwjcZ89W_ob" name="User_Connection_Details_UseCase">
-    <mxGraphModel dx="1188" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1884" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1042,15 +1042,15 @@
         <mxCell id="xr_qH639IZ6flpDBf3_I-40" parent="xr_qH639IZ6flpDBf3_I-39" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
           <mxGeometry height="723" width="10" x="90" y="156" as="geometry" />
         </mxCell>
-        <mxCell id="xr_qH639IZ6flpDBf3_I-58" edge="1" parent="xr_qH639IZ6flpDBf3_I-39" source="xr_qH639IZ6flpDBf3_I-40" style="curved=1;endArrow=block;rounded=0;" target="xr_qH639IZ6flpDBf3_I-40" value="setDataStore()">
+        <mxCell id="xr_qH639IZ6flpDBf3_I-58" edge="1" parent="xr_qH639IZ6flpDBf3_I-39" style="curved=1;endArrow=block;rounded=0;" value="setDataStore()">
           <mxGeometry relative="1" x="0.0694" y="10" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="157" y="390" />
-              <mxPoint x="157" y="420" />
+              <mxPoint x="157" y="270" />
+              <mxPoint x="157" y="300" />
             </Array>
-            <mxPoint x="107" y="390" as="sourcePoint" />
-            <mxPoint x="107" y="420" as="targetPoint" />
+            <mxPoint x="100" y="270" as="sourcePoint" />
+            <mxPoint x="100" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xr_qH639IZ6flpDBf3_I-41" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="NModbus Library" vertex="1">
@@ -1073,11 +1073,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xr_qH639IZ6flpDBf3_I-45" edge="1" parent="1" source="xr_qH639IZ6flpDBf3_I-40" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xr_qH639IZ6flpDBf3_I-41" value="Factory.CreateSlave(ID, DataStore)">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="xr_qH639IZ6flpDBf3_I-45" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="Factory.CreateSlave(ID, DataStore)">
+          <mxGeometry relative="1" x="0.0701" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="826" y="1099" />
+              <mxPoint x="826" y="1120" />
             </Array>
+            <mxPoint x="643" y="1120" as="sourcePoint" />
+            <mxPoint x="992.5" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xr_qH639IZ6flpDBf3_I-46" edge="1" parent="1" source="xr_qH639IZ6flpDBf3_I-41" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="xr_qH639IZ6flpDBf3_I-40" value="returns IModbusSlave Object">

@@ -1029,7 +1029,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4_CG2Gpb1AwjcZ89W_ob" name="User_Connection_Details_UseCase">
-    <mxGraphModel dx="1678" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1041,6 +1041,17 @@
         </mxCell>
         <mxCell id="xr_qH639IZ6flpDBf3_I-40" parent="xr_qH639IZ6flpDBf3_I-39" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
           <mxGeometry height="723" width="10" x="90" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="xr_qH639IZ6flpDBf3_I-58" edge="1" parent="xr_qH639IZ6flpDBf3_I-39" source="xr_qH639IZ6flpDBf3_I-40" style="curved=1;endArrow=block;rounded=0;" target="xr_qH639IZ6flpDBf3_I-40" value="setDataStore()">
+          <mxGeometry relative="1" x="0.0694" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="157" y="390" />
+              <mxPoint x="157" y="420" />
+            </Array>
+            <mxPoint x="107" y="390" as="sourcePoint" />
+            <mxPoint x="107" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xr_qH639IZ6flpDBf3_I-41" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="NModbus Library" vertex="1">
           <mxGeometry height="974" width="150" x="918" y="790" as="geometry" />
@@ -1076,47 +1087,59 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xr_qH639IZ6flpDBf3_I-47" edge="1" parent="1" source="xr_qH639IZ6flpDBf3_I-40" style="curved=1;endArrow=block;rounded=0;" target="xr_qH639IZ6flpDBf3_I-40" value="Create TcpListener(Port)">
+        <mxCell id="xr_qH639IZ6flpDBf3_I-47" edge="1" parent="1" style="curved=1;endArrow=block;rounded=0;" value="Create TcpListener(Port)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="693" y="1252" />
-              <mxPoint x="693" y="1282" />
+              <mxPoint x="693" y="1329" />
+              <mxPoint x="693" y="1359" />
             </Array>
+            <mxPoint x="643" y="1329" as="sourcePoint" />
+            <mxPoint x="643" y="1359" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xr_qH639IZ6flpDBf3_I-48" edge="1" parent="1" source="xr_qH639IZ6flpDBf3_I-40" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xr_qH639IZ6flpDBf3_I-41" value="Factory.CreateSlaveNetwork(TcpListener)">
+        <mxCell id="xr_qH639IZ6flpDBf3_I-48" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="Factory.CreateSlaveNetwork(TcpListener)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="826" y="1334" />
+              <mxPoint x="826" y="1411" />
             </Array>
+            <mxPoint x="643" y="1411" as="sourcePoint" />
+            <mxPoint x="992.5000000000005" y="1411" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xr_qH639IZ6flpDBf3_I-49" edge="1" parent="1" source="xr_qH639IZ6flpDBf3_I-41" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="xr_qH639IZ6flpDBf3_I-40" value="returns IModbusSlaveNetwork Object">
+        <mxCell id="xr_qH639IZ6flpDBf3_I-49" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" value="returns IModbusSlaveNetwork Object">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="829" y="1386" />
+              <mxPoint x="829" y="1463" />
             </Array>
+            <mxPoint x="992.5000000000005" y="1463" as="sourcePoint" />
+            <mxPoint x="643" y="1463" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xr_qH639IZ6flpDBf3_I-50" edge="1" parent="1" source="xr_qH639IZ6flpDBf3_I-40" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xr_qH639IZ6flpDBf3_I-42" value="AddSlave(Slave Object)">
+        <mxCell id="xr_qH639IZ6flpDBf3_I-50" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="AddSlave(Slave Object)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="964" y="1487" />
+              <mxPoint x="964" y="1564" />
             </Array>
+            <mxPoint x="643" y="1564" as="sourcePoint" />
+            <mxPoint x="1267.5000000000005" y="1564" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xr_qH639IZ6flpDBf3_I-51" edge="1" parent="1" source="xr_qH639IZ6flpDBf3_I-40" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="xr_qH639IZ6flpDBf3_I-42" value="ListenAsync()">
+        <mxCell id="xr_qH639IZ6flpDBf3_I-51" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="ListenAsync()">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="964" y="1539" />
+              <mxPoint x="964" y="1616" />
             </Array>
+            <mxPoint x="643" y="1616" as="sourcePoint" />
+            <mxPoint x="1267.5000000000005" y="1616" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xr_qH639IZ6flpDBf3_I-52" edge="1" parent="1" source="xr_qH639IZ6flpDBf3_I-40" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="xr_qH639IZ6flpDBf3_I-38" value="Connection Started (Success)">
+        <mxCell id="xr_qH639IZ6flpDBf3_I-52" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" value="Connection Started (Success)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="491" y="1659" />
+              <mxPoint x="491" y="1736" />
             </Array>
+            <mxPoint x="633" y="1736" as="sourcePoint" />
+            <mxPoint x="266.57142857142844" y="1736" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xr_qH639IZ6flpDBf3_I-53" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Step 1: Initialization" vertex="1">
@@ -1126,13 +1149,13 @@
           <mxGeometry height="49" width="191" x="663" y="966" as="geometry" />
         </mxCell>
         <mxCell id="xr_qH639IZ6flpDBf3_I-55" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Preparing Communication" vertex="1">
-          <mxGeometry height="49" width="205" x="663" y="1171" as="geometry" />
+          <mxGeometry height="49" width="205" x="663" y="1248" as="geometry" />
         </mxCell>
         <mxCell id="xr_qH639IZ6flpDBf3_I-56" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="binding &amp; Starting" vertex="1">
-          <mxGeometry height="49" width="191" x="663" y="1406" as="geometry" />
+          <mxGeometry height="49" width="191" x="663" y="1483" as="geometry" />
         </mxCell>
         <mxCell id="xr_qH639IZ6flpDBf3_I-57" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Server is now LISTENING&#xa;for incoming connections" vertex="1">
-          <mxGeometry height="68" width="300" x="1293" y="1559" as="geometry" />
+          <mxGeometry height="68" width="300" x="1293" y="1636" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
